@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "noImplicitAny": true,
+    "noEmitOnError": true,
     "sourceMap": true,
-    "outDir": "js"
-  }
+    "target": "es5",
+    "module": "system",
+    "outFile": "js/main.js",
+  },
+  "compileOnSave": true
 }
