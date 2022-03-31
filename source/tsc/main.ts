@@ -1,3 +1,5 @@
+declare var marked: any;
+
 addEventListener("DOMContentLoaded", (event) => {
 	// set marked settings
 	marked.use({
